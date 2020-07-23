@@ -22,5 +22,6 @@ class PostsController < ApplicationController
   end
 
   def dashboard
+    @posts = Post.all
   end
 end
