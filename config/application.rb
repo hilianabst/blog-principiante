@@ -1,4 +1,4 @@
-RAILS_ENV=production bundle exec rake assets:precompile
+
 require_relative 'boot'
 
 require 'rails/all'
