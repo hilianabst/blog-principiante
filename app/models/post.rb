@@ -1,7 +1,5 @@
 class Post < ApplicationRecord
-    validates :title, presence: true
-    validates :content, presence: true
-    validates :image_url, presence: true
+    validates_presence_of :title, :content, :image_url
 
     before_save :sense_word
 
